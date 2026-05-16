@@ -35,6 +35,6 @@ console.log(jsUser.greeting)
 console.log(jsUser.greeting())
 
 jsUser.greetingTwo = function(){
-    console.log(`Hello JsUser, ${this.name} ${this["sur name"]}`) // if u want to access same object variable u can use this
+    console.log(`Hello JsUser, ${this.name} ${this["sur name"]}`) // if u want to access same object variable u can use "this"
 }
 console.log(jsUser.greetingTwo())
